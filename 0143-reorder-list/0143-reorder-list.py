@@ -1,35 +1,28 @@
 class Solution(object):
     def reorderList(self, head):
-        slow = head
-        fast = head.next
-
-        # Find middle
+        slow=head
+        fast=head.next
         while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
+            slow=slow.next
+            fast=fast.next.next
 
-        # Split list
-        second = slow.next
-        slow.next = None
-
-        
-        prev = None
-        while second:
-            temp = second.next
-            second.next = prev
-            prev = second
-            second = temp
-
-       
-        first = head
-        second = prev
+        first=head
+        second=slow.next
+        slow.next=None
+        prev=None
 
         while second:
-            temp1 = first.next
-            temp2 = second.next
+            temp=second.next
+            second.next=prev
+            prev=second
+            second=temp
 
-            first.next = second
-            second.next = temp1
+        second=prev
+        while second:
+            temp1=first.next
+            temp2=second.next
+            first.next=second
+            second.next=temp1
 
-            first = temp1
-            second = temp2
+            first=temp1
+            second=temp2
