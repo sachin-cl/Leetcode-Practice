@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/sachin-cl/Leetcode-Practice/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sachin-cl/Leetcode-Practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0143-reorder-list](https://github.com/sachin-cl/Leetcode-Practice/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/sachin-cl/Leetcode-Practice/tree/master/0287-find-the-duplicate-number) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/sachin-cl/Leetcode-Practice/tree/master/0011-container-with-most-water) |
 | [0287-find-the-duplicate-number](https://github.com/sachin-cl/Leetcode-Practice/tree/master/0287-find-the-duplicate-number) |
 ## Binary Search
 |  |
@@ -52,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/sachin-cl/Leetcode-Practice/tree/master/0287-find-the-duplicate-number) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/sachin-cl/Leetcode-Practice/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
